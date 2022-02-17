@@ -1,0 +1,7 @@
+string metodusok:
+
+lower(), upper()
+
+strip() - levágja a whitespace karaktereket elejéről és végéről
+
+isalpha() - 

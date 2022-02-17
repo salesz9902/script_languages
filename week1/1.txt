@@ -1,0 +1,11 @@
+tipuskonverziok:
+str(), int(), float()
+pl.: 'asd' + str(3)
+
+PEP8 - style guide
+
+C:    Python:
+|| -	or
+&& -	and
+!  -	not
+
