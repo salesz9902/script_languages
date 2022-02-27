@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 def getProduct(l):
-    prod = 0
+    prod = 1
 
     if(len(l) == 0):
         return 1
