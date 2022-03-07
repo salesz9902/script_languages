@@ -1,0 +1,6 @@
+Timecodes
+
+0:00 - A feladat bemutatása
+0:20 - Gondolkodás python shellben
+0:42 - Megoldás részletes kifejtése
+1:38 - Feladat ellenőrzése
