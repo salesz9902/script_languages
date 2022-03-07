@@ -9,7 +9,7 @@ def main():
         sumSquare += num
         squareSum += num**2
 
-    print(f'osszeg negyzete: {sumSquare**2} \n negyzet osszege: {squareSum} ')
+    print(f'osszeg negyzete: {sumSquare**2} \nnegyzet osszege: {squareSum} ')
     print(f'ketto kozotti kulonbseg: {sumSquare**2 - squareSum}')
 
 
