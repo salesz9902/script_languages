@@ -10,16 +10,12 @@ involving complex functions
 
 
 def main():
-    t = []
-    cpi = ''
     strpi = str(math.pi).replace('.', '')[:15]
 
-    for w in POEM.split():
-        t.append(str(len(w)))
+    cpi = [str(len(w)) for w in POEM.split()]
+    print(''.join(cpi))
 
-    cpi = ''.join(t)
-    print(cpi)
-    print(cpi == strpi)
+    print(''.join(cpi) == strpi)
 
 
 if __name__ == '__main__':

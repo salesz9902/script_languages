@@ -23,7 +23,6 @@ accented = {
 
 def main():
     t = TEXT.split()
-    print(t)
     for i, w in enumerate(t):
         for c in w:
             if(c in accented.keys()):
