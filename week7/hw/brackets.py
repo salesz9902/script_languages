@@ -23,13 +23,13 @@ def test(text):
 
 
 def main():
-    print(
-        test("((5+3)*2+1)") == True,
-        test("{[(3+1)+2]+}") == True,
-        test("(3+{1-1)}") == False,
-        test("[1+1]+(2*2)-{3/3}") == True,
-        test("(({[(((1)-2)+3)-3]/3}-3)") == False
-    )
+    print('test("((5+3)*2+1)") == True ->', test("((5+3)*2+1)") == True)
+    print('test("{[(3+1)+2]+}") == True ->', test("{[(3+1)+2]+}") == True)
+    print('test("(3+{1-1)}") == False ->', test("(3+{1-1)}") == False)
+    print('test("[1+1]+(2*2)-{3/3}") == True ->',
+          test("[1+1]+(2*2)-{3/3}") == True)
+    print('test("(({[(((1)-2)+3)-3]/3}-3)") == False ->',
+          test("(({[(((1)-2)+3)-3]/3}-3)") == False)
 
 
 if __name__ == '__main__':
