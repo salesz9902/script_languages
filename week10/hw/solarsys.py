@@ -6,7 +6,7 @@ def main():
     for line in f:
         try:
             if line.index('j') < line.index('s') < line.index('u') < line.index('n'):
-                print(line)
+                print(line.split(',')[0])
         except:
             pass
 
